@@ -196,3 +196,34 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.big-flex-middle.four {
+    height: 348px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blue-box {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding: 48px 72px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-heading {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+button.cta-button {
+    border: #E5E7EB solid 4px;
+}
