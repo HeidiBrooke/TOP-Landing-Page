@@ -110,17 +110,20 @@ a {
     color: #E5E7EB;
 }
 
-p.subtext {
+.subtext {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 12px;
+    text-align: left;
 }
 
 .big-flex-middle {
     background-color: #F9FAF8;
+    height: 400px;
 }
 
 .contain-width.middle {
+    /* justify-content: center; */
     gap: 24px;
 }
 
@@ -157,4 +160,39 @@ p.subtext {
 p {
     text-align: center;
     color: #1f2937;
+}
+
+.big-flex-middle-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 344px;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.source {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+.contain-width.bm {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    height: 344px;
+    justify-content: center;
+    align-items: center;
 }
